@@ -247,9 +247,10 @@ nav a:hover {
 	flex-direction: column;
 }
 
-.col-md-12.footer-upper {
+.row .col-md-12.footer-upper {
     border: 2px solid;
     padding: 5px;
+	width: 96.6%;
 }
 
 .col-md-12.footer-lower {
@@ -272,6 +273,13 @@ nav a:hover {
 	margin-left:5px;
 }
 
+footer{
+	margin-top:8px;
+}
 
-
-
+.home-up .col-md-12 {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 6px;
+    padding-bottom: 20px;
+	width:96.6%;
+}
